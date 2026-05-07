@@ -2,8 +2,8 @@ def linear_search(list, target):
     for i in range(0, len(list)):
         if list[i] == target:
             return i
-        else:
-            return None
+
+    return None
 
 
 def verify(index):
@@ -15,5 +15,5 @@ def verify(index):
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-results = linear_search(numbers, 1)
+results = linear_search(numbers, 9)
 verify(results)
